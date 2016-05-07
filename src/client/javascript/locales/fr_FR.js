@@ -356,6 +356,7 @@
     'LBL_OPENWITH'     : 'Ouvrir avec...',
     'LBL_ICONVIEW'     : 'Vue en icônes',
     'LBL_TREEVIEW'     : 'Vue en arborescence',
+    'LBL_THUMBVIEW'    : 'Vue en vignette',
     'LBL_LISTVIEW'     : 'Vue en liste',
     'LBL_REFRESH'      : 'Rafraîchir',
     'LBL_VIEWTYPE'     : 'Type de vue',

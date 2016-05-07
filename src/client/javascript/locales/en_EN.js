@@ -358,6 +358,7 @@
     'LBL_OPENWITH'     : 'Open With ...',
     'LBL_ICONVIEW'     : 'Icon View',
     'LBL_TREEVIEW'     : 'Tree View',
+    'LBL_THUMBVIEW'    : 'Thumbnail View',
     'LBL_LISTVIEW'     : 'List View',
     'LBL_REFRESH'      : 'Refresh',
     'LBL_VIEWTYPE'     : 'View type',

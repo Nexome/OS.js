@@ -42,6 +42,7 @@
       'gui-list-view': 'textarea',
       'gui-tree-view': 'textarea',
       'gui-icon-view': 'textarea',
+      'gui-thumbnail-view': 'textarea',
       'gui-input-modal': 'button'
     };
 

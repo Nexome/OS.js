@@ -71,7 +71,8 @@
     var classMap = {
       'gui-list-view': 'gui-list-view-row',
       'gui-tree-view': 'gui-tree-view-entry',
-      'gui-icon-view': 'gui-icon-view-entry'
+      'gui-icon-view': 'gui-icon-view-entry',
+      'gui-thumbnail-view': 'gui-thumbnail-view-entry'
     };
 
     var map = {};

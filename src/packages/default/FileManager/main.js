@@ -99,6 +99,7 @@
       icon: metadata.icon,
       title: metadata.name,
       allow_drop: true,
+      gravity: 'center',
       width: 650,
       height: 420
     }, app, scheme]);
@@ -173,6 +174,7 @@
       MenuRefresh:        function() { self.changePath(); },
       MenuViewList:       function() { self.changeView('gui-list-view', true); },
       MenuViewTree:       function() { self.changeView('gui-tree-view', true); },
+      MenuViewThumbnail:  function() { self.changeView('gui-icon-thumbnail', true); },
       MenuViewIcon:       function() { self.changeView('gui-icon-view', true); },
       MenuShowSidebar:    function() { viewSide = self.toggleSidebar(!viewSide, true); },
       MenuShowNavigation: function() { viewNav = self.toggleNavbar(!viewNav, true); },
@@ -198,6 +200,7 @@
     viewMenu.set('checked', 'MenuViewList', viewType === 'gui-list-view');
     viewMenu.set('checked', 'MenuViewTree', viewType === 'gui-tree-view');
     viewMenu.set('checked', 'MenuViewIcon', viewType === 'gui-icon-view');
+    viewMenu.set('checked', 'MenuViewThumbnail', viewType === 'gui-thumbnail-view');
     viewMenu.set('checked', 'MenuShowSidebar', viewSide);
     viewMenu.set('checked', 'MenuShowNavigation', viewNav);
     viewMenu.set('checked', 'MenuShowHidden', viewHidden);

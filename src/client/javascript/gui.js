@@ -165,7 +165,7 @@
    */
   function getProperty(el, param, tagName) {
     tagName = tagName || el.tagName.toLowerCase();
-    var isDataView = tagName.match(/^gui\-(tree|icon|list|file)\-view$/);
+    var isDataView = tagName.match(/^gui\-(tree|icon|thumb|list|file)\-view$/);
 
     if ( param === 'value' && !isDataView) {
       if ( (['gui-text', 'gui-password', 'gui-textarea', 'gui-slider', 'gui-select', 'gui-select-list']).indexOf(tagName) >= 0 ) {

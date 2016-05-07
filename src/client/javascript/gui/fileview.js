@@ -322,7 +322,7 @@
         return row;
       }
 
-      if ( tagName === 'gui-icon-view' || tagName === 'gui-tree-view' ) {
+      if ( tagName === 'gui-icon-view' || tagName === 'gui-thumbnail-view' || tagName === 'gui-tree-view' ) {
         return _createEntry();
       }
 

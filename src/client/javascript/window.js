@@ -1399,7 +1399,7 @@
   Window.prototype._nextTabIndex = function(ev) {
 
     var prev = ev.shiftKey;
-    var accept = ['input', 'select', 'textarea', 'gui-list-view', 'gui-tree-view', 'gui-icon-view']; // Textarea/Iframe accepts TAB
+    var accept = ['input', 'select', 'textarea', 'gui-list-view', 'gui-tree-view', 'gui-icon-view', 'gui-thumbnail-view']; // Textarea/Iframe accepts TAB
     var current = document.activeElement;
     var currentTag = current ? current.tagName.toLowerCase() : null;
     var root = this._$root;
